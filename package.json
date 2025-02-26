@@ -12,7 +12,8 @@
 	},
 	"dependencies": {
 		"react": "^18.3.1",
-		"react-dom": "^18.3.1"
+		"react-dom": "^18.3.1",
+		"sgdmsjs-client": "file:"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20250224.0",
