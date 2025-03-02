@@ -11,13 +11,20 @@
 		"deploy": "npm run build && wrangler pages deploy ./dist"
 	},
 	"dependencies": {
+		"@emotion/react": "^11.14.0",
+		"@emotion/styled": "^11.14.0",
+		"@mui/icons-material": "^6.4.6",
+		"@mui/material": "^6.4.6",
+		"axios": "^1.8.1",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
+		"react-router-dom": "^7.2.0",
 		"sgdmsjs-client": "file:"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20250224.0",
 		"@eslint/js": "^9.17.0",
+		"@types/node": "^22.13.5",
 		"@types/react": "^18.3.18",
 		"@types/react-dom": "^18.3.5",
 		"@vitejs/plugin-react": "^4.3.4",
