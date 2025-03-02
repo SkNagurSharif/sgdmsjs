@@ -1,8 +1,8 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  
 }
 
 .logo {
@@ -12,11 +12,21 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #05f669aa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+/* Add styles for the Navbar buttons */
+.MuiButton-root {
+  transition: background-color 0.3s ease;
+}
+
+.MuiButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Change hover color to a lighter shade */
+  color: inherit; /* Ensure text color does not change on hover */
+}
+
 
 @keyframes logo-spin {
   from {
